@@ -1,0 +1,6 @@
+{
+  "name": "Triangulo",
+  "tagline": "",
+  "body": "package ar.edu.unlam.tallerweb.triangulo;\r\n\r\npublic class Triangulo {\r\n\t\r\n\tInteger ladoA=4, altura=3, resultado=0;\r\n\t\r\n\tpublic void perimetro(Integer ladoA){\r\n\t\tresultado=ladoA*3;\r\n\t\t\r\n\t}\r\n\r\n\tpublic void area(Integer ladoA){\r\n\t\tresultado=((ladoA/2)*altura)/2;\r\n\t}\r\n\t\r\n}\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
