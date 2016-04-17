@@ -2,15 +2,18 @@ package ar.edu.unlam.tallerweb.triangulo;
 
 public class Triangulo {
 	
-	Integer ladoA=4, altura=3, resultado=0;
+	Integer ladoA=0, altura=0, resultado=0;
 	
 	public void perimetro(Integer ladoA){
 		resultado=ladoA*3;
 		
 	}
 
-	public void area(Integer ladoA){
+	public void area(Integer ladoA, Integer altura){
 		resultado=((ladoA/2)*altura)/2;
 	}
 	
+	public Integer obtenerResultado(){
+		return resultado;
+	}
 }
